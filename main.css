@@ -1,0 +1,193 @@
+.container{
+  height: 600px;
+  width: 1100px;
+  background-color: rgb(232, 223, 223);
+  position:absolute;
+}
+.party_bus{
+  height: 400px;
+  width: 800px;
+  border: 2px solid black;
+  background-color: yellow;
+  position: absolute;
+  top: 50px;
+  left: 70px;
+  z-index: 2;
+  border-top-left-radius: 50px;
+  border-top-right-radius: 50px;
+}
+/*.windows ul{
+  border: 1px solid black;
+  position: absolute;
+  left: 70px;
+  top: 50px;
+  background-color: aqua;
+  margin-left: 25px;
+  height: 120px;
+  width: 300px;
+}*/
+.windows ul li{
+  display: block;
+  position: relative;
+  left: 0;
+  top: 0;
+  height: 100px;
+  width: 110px;
+  border: 1px solid black;
+  float: left;
+  margin-top: 30px;
+  background-image: url('https://img.freepik.com/premium-vector/group-funny-children-jumping_29937-5029.jpg?w=1380');
+  
+} 
+.windows ul li.child{
+  width: 110px;
+  height: 100px;
+  background-size: cover;
+
+}
+.windows ul li.child1{
+  background-position: left top;
+  background-position-x: 456px;
+  background-position-y: 207px;
+  background-size: 415% 303%;
+}
+.windows ul li.child2{
+  background-position: left top;
+  background-position-x: 405px;
+  background-position-y: 248px;
+  background-size: 463% 317%;
+}
+.windows ul li.child3{
+  background-position: right top;
+  background-position-x: 329px;
+  background-position-y: 260px;
+  background-size: 505% 321%;
+}
+.windows ul li.child4{
+  background-position: right top;
+  background-position-x: 215px;
+  background-position-y: 252px;
+  background-size: 468% 317%;
+}
+.driver{
+width: 200px;
+height: 160px;
+position: absolute;
+top: 5px;
+right: 5px;
+border: 2px solid black;
+background-image: url('https://vz.ua/uploads/news/2014/02/12/e12285e1312816f1b542807cc37c33d49b782d42.jpg');
+background-position-x: -148px;
+background-position-y: -14px;
+background-size: 207% 152%;
+border-top-right-radius: 50px;
+}
+.door{
+  width: 140px;
+  height: 180px;
+  border: 2px dotted red; 
+  position: absolute;
+  bottom: 4%;
+  right: 280px
+}
+.door .pointer {
+  height: 20px;
+  width: 20px;
+  border-radius: 20px;
+  border: 2px dotted red;
+  position: relative;
+  left: 80%;
+  top: 40%;
+}
+.wheel1{
+height: 100px;
+width: 100px;
+border-radius: 100px;
+border: 15px double black;
+position: absolute;
+bottom: -65px;
+right:100px;
+background-color: black;
+
+}
+.wheel1 .wheel_inside1_0{
+  height: 46px;
+  width: 46px;
+  border-radius: 45px;
+  border: 15px solid rgb(63, 61, 61);
+  background-color: rgb(63, 61, 61);
+  position: absolute;
+  left: 12px;
+  top: 12px;
+  outline: 7px solid rgb(104, 97, 97);
+}
+ /* .circle1_0_1{
+width: 5px;
+height: 5px;
+border-radius: 5px;
+background-color: black;
+position: relative;
+left: 25%;
+top: 25%
+} */
+.wheel_inside1_0 .wheel_inside1_1{
+  width: 20px;
+  height: 20px;
+  border-radius: 20px;
+  border: 2px solid rgb(17, 16, 16);
+  background-color: rgb(130, 124, 124);
+  position: relative;
+  left: 25%;
+  top: 25%;
+}
+.wheel_inside1_2{
+  width: 17px;
+  height: 17px;
+  border-radius: 17px;
+  background-color: rgb(63, 61, 61);
+  position: relative;
+  left: 6%;
+  top: 11%;
+}
+
+.wheel2{
+  height: 100px;
+  width: 100px;
+  border-radius: 100px;
+  border: 15px double black;
+  float:left;
+  position: absolute;
+  left:35px;
+  bottom:-65px;
+  background-color: black;
+}
+.wheel2 .wheel_inside2_0{
+  height: 46px;
+  width: 46px;
+  border-radius: 45px;
+  border: 15px solid rgb(63, 61, 61);
+  background-color: rgb(63, 61, 61);
+  position: relative;
+  left: 12px;
+  top: 12px;
+  outline: 7px solid rgb(104, 97, 97);
+}
+.wheel_inside2_0 .wheel_inside2_1{
+  width: 20px;
+  height: 20px;
+  border-radius: 20px;
+  border: 2px solid rgb(17, 16, 16);
+  background-color: rgb(130, 124, 124);
+  position: relative;
+  left: 25%;
+  top: 25%;
+}
+.wheel_inside2_2{
+  width: 17px;
+  height: 17px;
+  border-radius: 17px;
+  background-color: rgb(63, 61, 61);
+  position: relative;
+  left: 9%;
+  top: 11%;
+}
